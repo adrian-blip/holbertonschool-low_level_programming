@@ -18,4 +18,3 @@ putchar('\n');
 
 return (0);
 }
-© 2021 GitHub, Inc.
