@@ -1,24 +1,20 @@
-#include <stdlib.h>
+ #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 
 /**
- * main - Numbers comma
+ * main - Numbers Hexadecimal
+ *
  * Return: 0
  */
 int main(void)
 {
-int NBC;
+char hexa;
 
-for (NBC = 0; NBC <= 9; NBC++)
-{
-putchar(NBC + '0');
-if (NBC != 9)
-{
-putchar(',');
-putchar(32);
-}
-}
+for (hexa = '0'; hexa <= '9'; hexa++)
+putchar(hexa);
+for (hexa = 'a'; hexa <= 'f'; hexa++)
+putchar(hexa);
 putchar('\n');
 return (0);
 }
