@@ -1,12 +1,11 @@
 #include "holberton.h"
-#include <stdio.h>
-
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-int mul(int a, int b);
+  * mul - function that multiple two integers
+  * @a: takes in an integer
+  * @b: takes in an integer
+  * Return: returns product of a * b
+  */
+int mul(int a, int b)
 {
- return(a * b);
+	return (a * b);
 }
