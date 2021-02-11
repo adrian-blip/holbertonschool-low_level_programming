@@ -9,7 +9,7 @@ void print_numbers(void);
 {
 int o;
 
-  if(o = 0; 0 <= 10; 0++)
-    _putchar(0);
+  if(o = '0'; o <= '9'; o++)
+    _putchar(o);
       _putchar('\n');
 }
