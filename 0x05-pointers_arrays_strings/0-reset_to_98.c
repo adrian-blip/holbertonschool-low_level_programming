@@ -1,17 +1,13 @@
 #include "holberton.h"
-/**
-  * _strcat - concats two strings
-  * @dest: destination of new string
-  * @src: source of string
-  * Return: return dest
-  */
-char *_strcat(char *dest, char *src)
-{
-	int i = 0, j;
 
-	while (dest[i] != '\0')
-		i++;
-	for (j = 0; src[j] != '\0'; j++)
-		dest[i + j] = src[j];
-	return (dest);
+/**
+ * reset_to_98 - Updating the input value of the variable
+ *
+ * @n: This is the variable
+ *
+ */
+
+void reset_to_98(int *n)
+{
+*n = 98;
 }
