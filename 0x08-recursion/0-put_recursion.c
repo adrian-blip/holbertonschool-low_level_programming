@@ -1,19 +1,19 @@
-# incluye  " holberton.h "
-/ * *
- * _puts_recursion: imprime una cadena
- * @s: cadena que viene
- * Retorno: 0 cuando termina la cadena
-* * /
-void  _puts_recursion ( char * s)
+#include "holberton.h"
+/**
+ * _puts_recursion - prints a string
+ * @s: string coming
+ * Return: 0 when string is finished
+ **/
+void _puts_recursion(char *s)
 {
-int r = 0 ;
+int r = 0;
 
-si (s [r] == ' \ 0 ' )
+if (s[r] == '\0')
 {
-_putchar ( 10 );
-volver ;
+_putchar(10);
+return;
 }
-_putchar (* s);
-s ++;
-_puts_recursion (s);
+_putchar (*s);
+s++;
+_puts_recursion(s);
 }
