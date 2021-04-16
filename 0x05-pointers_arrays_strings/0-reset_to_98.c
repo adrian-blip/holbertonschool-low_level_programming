@@ -1,13 +1,12 @@
 #include "holberton.h"
 
 /**
- * reset_to_98 - Updating the input value of the variable
+ * reset_to_98 - sets value to 98
+ * @n: address of value
  *
- * @n: This is the variable
- *
+ * Return: void
  */
-
 void reset_to_98(int *n)
 {
-*n = 98;
+	*n = 98;
 }
